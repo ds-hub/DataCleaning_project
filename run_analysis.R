@@ -55,5 +55,5 @@ run_analysis <- function(){
     }
     
     # write tidy data to file
-    write.table(tidydata2, "tidydata.csv", sep=",")
+    write.table(tidydata2, "tidydata.txt", sep=",")
 }
